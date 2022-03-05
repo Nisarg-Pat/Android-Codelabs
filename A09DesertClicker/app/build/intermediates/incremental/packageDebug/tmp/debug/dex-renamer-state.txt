@@ -1,0 +1,4 @@
+#Sat Mar 05 18:14:59 EST 2022
+base.0=C\:\\Users\\patel\\Desktop\\Courses\\Android Development\\CodeLabs\\A09_DesertClicker\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
