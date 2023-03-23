@@ -17,6 +17,8 @@ class WordListFragment : Fragment() {
 
     private lateinit var recyclerView: RecyclerView
 
+    private lateinit var letterId: String
+
     companion object {
         const val LETTER = "letter"
         const val SEARCH_PREFIX = "https://www.google.com/search?q="
@@ -24,6 +26,10 @@ class WordListFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        arguments?.let {
+            letterId = it.getString(LETTER).toString()
+        }
     }
 
     override fun onCreateView(
@@ -36,7 +42,6 @@ class WordListFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        val letterId = activity!!.intent.extras?.getString(LETTER).toString()
 
         recyclerView = binding.recyclerView
         recyclerView.layoutManager = LinearLayoutManager(context)
@@ -46,8 +51,6 @@ class WordListFragment : Fragment() {
         recyclerView.addItemDecoration(
             DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
         )
-
-        activity!!.title = getString(R.string.detail_prefix) + " " + letterId
     }
 
     override fun onDestroyView() {
