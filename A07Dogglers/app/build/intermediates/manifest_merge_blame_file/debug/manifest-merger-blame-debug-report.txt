@@ -21,134 +21,137 @@
 21
 22    <uses-sdk
 23        android:minSdkVersion="21"
-23-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml
+23-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml
 24        android:targetSdkVersion="30" />
-24-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml
+24-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml
 25
 26    <uses-permission android:name="android.permission.REORDER_TASKS" />
-26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
-26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:22-69
+26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:22-69
 27
 28    <application
-28-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:20:5-49:19
+28-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:19:5-49:19
 29        android:allowBackup="true"
-29-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:21:9-35
+29-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:20:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.3.2] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\ee64c205f53f42c956b9de532d024878\core-1.3.2\AndroidManifest.xml:24:18-86
+30-->[androidx.core:core:1.3.2] C:\Users\patel\.gradle\caches\transforms-3\b4e823c474a0f6202a20d4cd6eb144ed\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_launcher"
-32-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:22:9-43
+32-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:21:9-43
 33        android:label="@string/app_name"
-33-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:23:9-41
+33-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:22:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:24:9-54
+34-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:23:9-54
 35        android:supportsRtl="true"
-35-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:25:9-35
+35-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:24:9-35
 36        android:testOnly="true"
 37        android:theme="@style/Theme.Dogglers" >
-37-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:26:9-46
+37-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:25:9-46
 38        <activity android:name="com.example.dogglers.VerticalListActivity" >
-38-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:27:9-31:20
-38-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:27:19-55
+38-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:26:9-30:20
+38-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:26:19-55
 39            <meta-data
-39-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:28:13-30:49
+39-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:27:13-29:49
 40                android:name="android.support.PARENT_ACTIVITY"
-40-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:29:17-63
+40-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:28:17-63
 41                android:value=".MainActivity" />
-41-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:30:17-46
+41-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:29:17-46
 42        </activity>
 43        <activity android:name="com.example.dogglers.HorizontalListActivity" >
-43-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:32:9-36:20
-43-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:32:19-57
+43-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:31:9-35:20
+43-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:31:19-57
 44            <meta-data
-44-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:28:13-30:49
+44-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:27:13-29:49
 45                android:name="android.support.PARENT_ACTIVITY"
-45-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:29:17-63
+45-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:28:17-63
 46                android:value=".MainActivity" />
-46-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:30:17-46
+46-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:29:17-46
 47        </activity>
 48        <activity android:name="com.example.dogglers.GridListActivity" >
-48-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:37:9-41:20
-48-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:37:19-51
+48-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:36:9-40:20
+48-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:36:19-51
 49            <meta-data
-49-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:28:13-30:49
+49-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:27:13-29:49
 50                android:name="android.support.PARENT_ACTIVITY"
-50-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:29:17-63
+50-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:28:17-63
 51                android:value=".MainActivity" />
-51-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:30:17-46
+51-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:29:17-46
 52        </activity>
-53        <activity android:name="com.example.dogglers.MainActivity" >
-53-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:42:9-48:20
-53-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:42:19-47
-54            <intent-filter>
-54-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:43:13-47:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:17-69
-55-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:25-66
-56
-57                <category android:name="android.intent.category.LAUNCHER" />
-57-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:46:17-77
-57-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:46:27-74
-58            </intent-filter>
-59        </activity>
-60        <activity
-60-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:28:9-37:20
-61            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
-61-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:29:13-96
-62            android:exported="true"
-62-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:30:13-36
-63            android:multiprocess="true"
-63-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:31:13-40
-64            android:taskAffinity=""
-64-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:32:13-36
-65            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
-65-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:33:13-78
-66            <intent-filter>
-66-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
-67                <action android:name="android.intent.action.MAIN" />
-67-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:17-69
-67-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:25-66
-68            </intent-filter>
-69        </activity>
-70        <activity
-70-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
-71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-71-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
-72            android:theme="@android:style/Theme" >
-72-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
-73            <intent-filter>
-73-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
-74                <action android:name="android.intent.action.MAIN" />
-74-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:17-69
-74-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:25-66
-75            </intent-filter>
-76        </activity>
-77        <activity
-77-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
-78            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-78-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
-79            android:theme="@android:style/Theme" >
-79-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
-80            <intent-filter>
-80-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
-81                <action android:name="android.intent.action.MAIN" />
-81-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:17-69
-81-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:25-66
-82            </intent-filter>
-83        </activity>
-84        <activity
-84-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
-85            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-85-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
-86            android:theme="@android:style/Theme.Dialog" >
-86-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
-87            <intent-filter>
-87-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
-88                <action android:name="android.intent.action.MAIN" />
-88-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:17-69
-88-->C:\Users\patel\AndroidStudioProjects\A07Dogglers\A07 Dogglers\app\src\main\AndroidManifest.xml:44:25-66
-89            </intent-filter>
-90        </activity>
-91    </application>
-92
-93</manifest>
+53        <activity
+53-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:41:9-48:20
+54            android:name="com.example.dogglers.MainActivity"
+54-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:41:19-47
+55            android:exported="true" >
+55-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:42:13-36
+56            <intent-filter>
+56-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:43:13-47:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+57-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:46:17-77
+59-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:46:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:28:9-37:20
+63            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+63-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:29:13-96
+64            android:exported="true"
+64-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:30:13-36
+65            android:multiprocess="true"
+65-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:31:13-40
+66            android:taskAffinity=""
+66-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:32:13-36
+67            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+67-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:33:13-78
+68            <intent-filter>
+68-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+69-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
+73            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+73-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
+74            android:theme="@android:style/Theme" >
+74-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
+75            <intent-filter>
+75-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+76-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
+80            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+80-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
+81            android:theme="@android:style/Theme" >
+81-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
+82            <intent-filter>
+82-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+83-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
+87            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+87-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
+88            android:theme="@android:style/Theme.Dialog" >
+88-->[androidx.test:core:1.3.0] C:\Users\patel\.gradle\caches\transforms-3\812903bec20b6248a5ed59b684a141aa\transformed\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
+89            <intent-filter>
+89-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\patel\.gradle\caches\transforms-3\24f58b162074c59f5447cbbddd27275b\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+90                <action android:name="android.intent.action.MAIN" />
+90-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:17-69
+90-->C:\Users\patel\Desktop\Courses\Android Development\CodeLabs\A07Dogglers\app\src\main\AndroidManifest.xml:44:25-66
+91            </intent-filter>
+92        </activity>
+93    </application>
+94
+95</manifest>

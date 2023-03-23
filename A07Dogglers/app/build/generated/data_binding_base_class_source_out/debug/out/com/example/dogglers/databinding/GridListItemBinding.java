@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.dogglers.R;
 import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
@@ -69,25 +70,25 @@ public final class GridListItemBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.dog_age_horizontal_vertical;
-      TextView dogAgeHorizontalVertical = rootView.findViewById(id);
+      TextView dogAgeHorizontalVertical = ViewBindings.findChildViewById(rootView, id);
       if (dogAgeHorizontalVertical == null) {
         break missingId;
       }
 
       id = R.id.dog_hobbies_horizontal_vertical;
-      TextView dogHobbiesHorizontalVertical = rootView.findViewById(id);
+      TextView dogHobbiesHorizontalVertical = ViewBindings.findChildViewById(rootView, id);
       if (dogHobbiesHorizontalVertical == null) {
         break missingId;
       }
 
       id = R.id.dog_name_horizontal_vertical;
-      TextView dogNameHorizontalVertical = rootView.findViewById(id);
+      TextView dogNameHorizontalVertical = ViewBindings.findChildViewById(rootView, id);
       if (dogNameHorizontalVertical == null) {
         break missingId;
       }
 
       id = R.id.image_view_horizontal_vertical;
-      ImageView imageViewHorizontalVertical = rootView.findViewById(id);
+      ImageView imageViewHorizontalVertical = ViewBindings.findChildViewById(rootView, id);
       if (imageViewHorizontalVertical == null) {
         break missingId;
       }

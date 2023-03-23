@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.dogglers.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -55,7 +56,7 @@ public final class ActivityGridListBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.grid_recycler_view;
-      RecyclerView gridRecyclerView = rootView.findViewById(id);
+      RecyclerView gridRecyclerView = ViewBindings.findChildViewById(rootView, id);
       if (gridRecyclerView == null) {
         break missingId;
       }

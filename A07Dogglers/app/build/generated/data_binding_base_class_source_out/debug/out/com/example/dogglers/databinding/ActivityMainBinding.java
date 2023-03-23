@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.dogglers.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -63,19 +64,19 @@ public final class ActivityMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.grid_btn;
-      Button gridBtn = rootView.findViewById(id);
+      Button gridBtn = ViewBindings.findChildViewById(rootView, id);
       if (gridBtn == null) {
         break missingId;
       }
 
       id = R.id.horizontal_btn;
-      Button horizontalBtn = rootView.findViewById(id);
+      Button horizontalBtn = ViewBindings.findChildViewById(rootView, id);
       if (horizontalBtn == null) {
         break missingId;
       }
 
       id = R.id.vertical_btn;
-      Button verticalBtn = rootView.findViewById(id);
+      Button verticalBtn = ViewBindings.findChildViewById(rootView, id);
       if (verticalBtn == null) {
         break missingId;
       }
