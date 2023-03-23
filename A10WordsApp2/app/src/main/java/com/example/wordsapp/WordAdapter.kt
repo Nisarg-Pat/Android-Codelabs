@@ -83,13 +83,12 @@ class WordAdapter(private val letterId: String, context: Context) :
 
         // Set the text of the WordViewHolder
         holder.button.text = item
-
-        // Assigns a [OnClickListener] to the button contained in the [ViewHolder]
         holder.button.setOnClickListener {
-            val queryUrl: Uri = Uri.parse("${DetailActivity.SEARCH_PREFIX}${item}")
-            val intent = Intent(Intent.ACTION_VIEW, queryUrl)
+            val queryURL: Uri = Uri.parse("${DetailActivity.SEARCH_PREFIX}${item}")
+            val intent = Intent(Intent.ACTION_VIEW, queryURL)
             context.startActivity(intent)
         }
+
     }
 
     // Setup custom accessibility delegate to set the text read with
