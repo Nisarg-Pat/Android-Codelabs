@@ -24,7 +24,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.example.wordsapp"
+        applicationId "com.example.wordsapp2"
         minSdkVersion 19
         targetSdkVersion 31
         versionCode 1
